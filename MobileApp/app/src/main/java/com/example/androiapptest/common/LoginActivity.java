@@ -1,10 +1,11 @@
-package com.example.androiapptest;
+package com.example.androiapptest.common;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.example.androiapptest.R;
 import com.example.businessrules.DepartureBusinessRules;
 
 public class LoginActivity extends AppCompatActivity {

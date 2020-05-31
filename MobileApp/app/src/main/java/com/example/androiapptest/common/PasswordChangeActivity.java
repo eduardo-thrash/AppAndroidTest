@@ -1,14 +1,16 @@
-package com.example.androiapptest;
+package com.example.androiapptest.common;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class DistributorMenuActivity extends AppCompatActivity {
+import com.example.androiapptest.R;
+
+public class PasswordChangeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_distributor_menu);
+        setContentView(R.layout.activity_password_change);
     }
 }
